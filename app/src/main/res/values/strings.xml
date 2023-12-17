@@ -1,3 +1,259 @@
 <resources>
     <string name="app_name">Receptar</string>
+    <string name="ingredience">Ingredience:</string>
+    <string name="recept">Recept:</string>
+
+    <string-array name="recepty_nazev">
+        <item>Linecké</item>
+        <item>Medovníky</item>
+        <item>Kokosové kuličky</item>
+        <item>Bezinky</item>
+        <item>Vanilkové rohlíčky</item>
+        <item>Ořechové kuličky</item>
+        <item>Piškoty</item>
+        <item>Makové koláčky</item>
+        <item>Perníčky</item>
+        <item>Lívance</item>
+        <item>Skořicové hvězdičky</item>
+        <item>Štangličky s oříšky</item>
+        <item>Rumové kuličky</item>
+        <item>Karamelky</item>
+        <item>Mandlové brambůrky</item>
+        <item>Marlenky</item>
+        <item>Máslové sušenky</item>
+        <item>Citrónové křížaly</item>
+        <item>Perníčkové srdíčka</item>
+        <item>Ovocné kolečka</item>
+    </string-array>
+
+    <string-array name="recepty_popis">
+        <item>Křehké sušenky z mouky, másla a cukru, často zdobené polevou nebo ovocnou marmeládou.</item>
+        <item>Kořeněné sušenky z medu, skořice a dalších koření, často zdobené polevou.</item>
+        <item>Malé kuličky z mouky, kokosu a kondenzovaného mléka, obvykle obalené v kokosové strouhance.</item>
+        <item>Křehké sušenky plněné džemem nebo marmeládou a posypané cukrem.</item>
+        <item>Drobné sušenky ve tvaru rohlíčků, obvykle posypávané vanilkovým cukrem.</item>
+        <item>Kuličky vyrobené z mletých ořechů, cukru a sypkých surovin, obvykle obalené v práškovém cukru.</item>
+        <item>Lehké, vzdušné sušenky z vaječného bílku, cukru a mouky, používané jako základ pro dorty.</item>
+        <item>Sušenky plněné mákem a cukrem, někdy zdobené polevou nebo skořicí.</item>
+        <item>Kořeněné sušenky z medu, skořice a dalších koření, obvykle ve tvaru postaviček nebo srdcí.</item>
+        <item>Tenké placky podobné palačinkám, často podávané s ovocem, marmeládou nebo cukrem.</item>
+        <item>Sušenky ve tvaru hvězdiček s intenzivní chutí skořice a cukru.</item>
+        <item>Malé válečky plněné nasekanými oříšky a cukrem.</item>
+        <item>Kuličky vyrobené z namočených sušenek smíchaných s rumem a obalené v kakaovém prášku.</item>
+        <item>Křehké cukrovinky zvařené z cukru, másla a smetany.</item>
+        <item>Sušenky vyrobené z mandlí, cukru a bílého vaječného bílku.</item>
+        <item>Sušenky s převážně ořechovým těstem a plněné ovocnou náplní, obvykle formované do tvaru půlměsíce.</item>
+        <item>Jemné a bohaté sušenky z hojného množství másla a mouky, často ozdobené cukrovou polevou.</item>
+        <item>Sušenky s příjemnou kyselou chutí citronu, obvykle tvarované do kříže.</item>
+        <item>Sušenky ve tvaru srdíček, kořeněné a plněné džemem nebo polevou.</item>
+        <item>Placky plněné ovocem nebo ovocnou náplní a obvykle ozdobené ovocným džemem.</item>
+    </string-array>
+
+    <string-array name="recepty_ingredience">
+        <item>
+            250 g hladké mouky\n
+            125 g másla\n
+            100 g cukru\n
+            Vanilkový cukr\n
+            1 vejce\n
+        </item>
+        <item>
+            500 g hladké mouky\n
+            150 g medu\n
+            150 g cukru\n
+            Skořice, hřebíček, zázvor (dle chuti)\n
+            1 vejce\n
+        </item>
+        <item>
+            200 g strouhaného kokosu\n
+            200 g kondenzovaného mléka\n
+            Kokosová strouhanka (pro obalení)\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            200 g másla\n
+            80 g moučkového cukru\n
+            Bezinková marmeláda\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            200 g másla\n
+            100 g moučkového cukru\n
+            Vanilkový cukr\n
+        </item>
+        <item>
+            200 g mletých ořechů (vlašské, lískové apod.)\n
+            100 g moučkového cukru\n
+            1 bílek\n
+        </item>
+        <item>
+            4 vejce\n
+            120 g cukru\n
+            120 g hladké mouky\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            150 g máku\n
+            100 g cukru\n
+            150 g másla\n
+        </item>
+        <item>
+            300 g hladké mouky\n
+            100 g másla\n
+            150 g medu\n
+            Skořice, zázvor, hřebíček (dle chuti)\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            2 vejce\n
+            300 ml mléka\n
+            Prise soli\n
+            Máslo na smažení\n
+        </item>
+        <item>
+            300 g hladké mouky\n
+            150 g másla\n
+            100 g cukru\n
+            Skořice\n
+        </item>
+        <item>
+            200 g mletých oříšků (vlašské, lískové apod.)\n
+            150 g hladké mouky\n
+            100 g másla\n
+            80 g cukru\n
+        </item>
+        <item>
+            300 g sušenek (např. piškoty)\n
+            100 ml rumu\n
+            Kakao na obalení\n
+        </item>
+        <item>
+            200 g cukru\n
+            100 g másla\n
+            100 ml smetany\n
+        </item>
+        <item>
+            200 g mletých mandlí\n
+            100 g cukru\n
+            2 bílky\n
+        </item>
+        <item>
+            250 g mletých ořechů\n
+            200 g cukru\n
+            2 bílky\n
+            Ovocná náplň (jahody, maliny, atd.)\n
+        </item>
+        <item>
+            300 g hladké mouky\n
+            200 g másla\n
+            100 g cukru\n
+            Vanilkový cukr\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            100 g másla\n
+            80 g cukru\n
+            Kůra z citrónu\n
+        </item>
+        <item>
+            300 g hladké mouky\n
+            100 g másla\n
+            150 g medu\n
+            Džem (dle chuti)\n
+        </item>
+        <item>
+            250 g hladké mouky\n
+            100 g másla\n
+            100 g cukru\n
+            Ovocný džem\n
+        </item>
+    </string-array>
+
+    <string-array name="recepty_recept">
+        <item>
+            Smíchejte mouku s máslem, cukrem, vanilkovým cukrem a vajíčkem, vytvořte hladké těsto.\n
+            Těsto nechte odpočívat v chladničce a poté vyválejte na placku.\n
+            Vykrájejte sušenky do různých tvarů a pečte v troubě do zlatavé barvy.\n
+        </item>
+        <item>
+            Smíchejte mouku s medem, cukrem a kořením, přidejte vejce a hněťte těsto.\n
+            Těsto nechte odpočívat, poté vykrajujte medovníky a pečte v troubě.\n
+        </item>
+        <item>
+            Smíchejte kokos s kondenzovaným mlékem, vytvořte těsto.\n
+            Z těsta vytvarujte malé kuličky a obalte je ve strouhaném kokosu.\n
+        </item>
+        <item>
+            Vyrobte těsto z mouky, másla a cukru.\n
+            Vytvořte kuličky, naťukněte do každé jamky a naplňte bezinkovou marmeládou.\n
+        </item>
+        <item>
+            Zpracujte mouku s máslem a cukrem, vytvořte těsto.\n
+            Z těsta vytvořte válečky, které stočíte do tvaru rohlíčků.\n
+            Pečte v troubě do zlatavé barvy a po upečení obalte ve vanilkovém cukru.\n
+        </item>
+        <item>
+            Smíchejte mleté ořechy s cukrem a bílkem, vytvořte kompaktní těsto.\n
+            Z těsta tvarujte malé kuličky a obalte v práškovém cukru.\n
+        </item>
+        <item>
+            Vyšlehejte vejce s cukrem do pěny.\n
+            Postupně vmíchejte mouku a pečte v tenké vrstvě v troubě.\n
+            Po upečení vykrájejte do požadovaných tvarů.\n
+        </item>
+        <item>
+            Smíchejte mouku s mákem a cukrem, přidejte máslo a vytvořte těsto.\n
+            Těsto rozválejte, vykrájejte do tvarů a pečte v troubě.\n
+        </item>
+        <item>
+            Smíchejte mouku s máslem, medem a kořením, vytvořte těsto.\n
+            Vytvarujte perníčky do různých forem a pečte.\n
+        </item>
+        <item>
+            Smíchejte mouku, vejce, mléko a špetku soli, vytvořte těsto bez hrudek.\n
+            Na pánvi rozehřejte máslo, nalijte těsto a pečte z obou stran do zlatavé barvy.\n
+        </item>
+        <item>
+            Zpracujte mouku s máslem, cukrem a skořicí, vytvořte těsto.\n
+            Těsto vyválejte a vykrajujte do tvarů hvězdiček, pečte v troubě.\n
+        </item>
+        <item>
+            Smíchejte mleté oříšky s moukou, máslem a cukrem, vytvořte těsto.\n
+            Vytvarujte štangličky a pečte je v troubě.\n
+        </item>
+        <item>
+            Rozemelte sušenky, smíchejte s rumem a vytvořte koule.\n
+            Obalte koule v kakaovém prášku a nechte ztuhnout.\n
+        </item>
+        <item>
+            Ve hrnci zahřejte cukr, až získá karamelovou barvu.\n
+            Přidejte máslo a smetanu, nechte zhoustnout a vytvarujte karamelky.\n
+        </item>
+        <item>
+            Smíchejte mleté mandle s cukrem a bílky, vytvořte těsto.\n
+            Těsto zpracujte a vytvarujte malé placky, pečte v troubě.\n
+        </item>
+        <item>
+            Smíchejte mleté ořechy s cukrem a bílky, vytvořte těsto.\n
+            Vytvarujte placky, na jednu položte ovocnou náplň a překryjte další plackou, pečte.\n
+        </item>
+        <item>
+            Zpracujte mouku s máslem, cukrem a vanilkovým cukrem, vytvořte těsto.\n
+            Vytvarujte malé sušenky a pečte v troubě.\n
+        </item>
+        <item>
+            Smíchejte mouku s máslem, cukrem a citrónovou kůrou, vytvořte těsto.\n
+            Těsto vyválejte a vykrájejte do tvarů křížů, pečte v troubě.\n
+        </item>
+        <item>
+            Zpracujte mouku s máslem, medem, vytvořte těsto.\n
+            Vytvarujte srdíčka, na jedno polovinu dejte džem a překryjte druhou polovinou, pečte.\n
+        </item>
+        <item>
+            Zpracujte mouku s máslem a cukrem, vytvořte těsto.\n
+            Vytvarujte kolečka, do každého dejte trochu ovocného džemu a pečte.\n
+        </item>
+    </string-array>
+
+
 </resources>
